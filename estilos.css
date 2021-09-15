@@ -1,0 +1,40 @@
+
+header{
+    background-color: pink;
+    height: 30vh;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    font-size: 1.5rem;
+}
+
+ul li{
+    font-size: 1.3rem;
+    color: rgb(204, 34, 113);
+    padding-top: 20px;
+}
+
+footer p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.enviar{
+    margin-top: 20px;
+}
+
+form div{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: pink;
+    color: white;
+    height: 15vh;
+}
