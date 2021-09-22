@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+*{
+    font-family: 'Amatic SC', cursive;
+}
+
 
 header{
-    background-color: pink;
     height: 30vh;
 
 }
@@ -13,10 +18,24 @@ p{
     font-size: 1.5rem;
 }
 
+input{
+    border: none;
+}
+
 ul li{
     font-size: 1.3rem;
     color: rgb(204, 34, 113);
     padding-top: 20px;
+    border: 2px solid pink;
+    list-style: none;
+    text-align: center;
+}
+
+main div{
+    width: 200px;
+    box-shadow: 10px 10px 5px 0px rgba(108,98,108,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(108,98,108,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(108,98,108,0.75);
 }
 
 footer p{
@@ -37,4 +56,13 @@ footer{
     background-color: pink;
     color: white;
     height: 15vh;
+}
+
+header, footer{
+    background: #fcecfc;
+    background: -moz-linear-gradient(top,  #fcecfc 0%, #fba6e1 50%, #fd89d7 51%, #ff7cd8 100%);
+    background: -webkit-linear-gradient(top,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); 
+    background: linear-gradient(to bottom,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 ); 
+
 }
